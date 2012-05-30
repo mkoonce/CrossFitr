@@ -129,11 +129,6 @@ public class StopwatchActivity extends Activity {
 	}
 	
 	public String getFormattedElapsedTime() {
-		return formatElapsedTime(getElapsedTime());
-	}
-	
-	public long getElapsedTime() {
-		return stopwatch.getElapsedTime();
-
+		return formatElapsedTime(stopwatch.getElapsedTime());
 	}
 }
